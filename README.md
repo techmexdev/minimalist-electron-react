@@ -1,7 +1,14 @@
 # minimalist-electron-react
 Dead simple boilerplate to start wrtiting desktop apps with JS
 
-## Start
-`$ npm start`
+## Get started
+```
+$ npm i
+$ npm start
+```
 
 And off you go! 🚀
+
+Browsers by default do not support importing modules. Which is why if you want to use _React_, you either have to use a module bundler like webpack, or use a lot of ugly <script> tags in your html file.
+
+With __Electron__, we have access to both the _browser_ environment, and the _node_ environment, which means there's no need for either of the above options! Just '_require_' your modules right out of the box!
